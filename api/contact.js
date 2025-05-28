@@ -38,8 +38,9 @@ export default async function handler(req, res) {
     });
 
     const { data, error } = await resend.emails.send({
-      from: 'onboarding@resend.dev',
-      to: ['mpdandco@gmail.com'],
+      // from: 'onboarding@resend.dev',
+      from: 'mpdandco@gmail.com',
+      to: ['audit@mpdandco.com'],
       subject: `New Contact: ${subject || 'No Subject'}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
