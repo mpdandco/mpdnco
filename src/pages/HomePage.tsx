@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
               data-aos-duration="1000"
             >
               <img 
-                src="/src/Assets/abouthome.png" 
+                src="/abouthome.png" 
                 alt="MPD and Co Team" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
