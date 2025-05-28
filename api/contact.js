@@ -39,7 +39,7 @@ export default async function handler(req, res) {
 
     const { data, error } = await resend.emails.send({
       // from: 'onboarding@resend.dev',
-      from: 'mpdandco@gmail.com',
+      from: 'mpdandco-website@mpdandco.com',
       to: ['audit@mpdandco.com'],
       subject: `New Contact: ${subject || 'No Subject'}`,
       html: `
